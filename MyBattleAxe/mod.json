@@ -1,0 +1,14 @@
+{
+	"name": "Battle Axe",
+	"Version": "1.0",
+	"Author": "Patrick Lie",
+	"Description": "Spiky Axe Thing for first modding experience",
+	"Assembly": null,
+	"HasJson": true,
+	"Bundles": [
+		{
+			"Name": "MyBattleAxeBundle",
+			"Path": "MyBattleAxe.bundle"
+		}
+	]
+}

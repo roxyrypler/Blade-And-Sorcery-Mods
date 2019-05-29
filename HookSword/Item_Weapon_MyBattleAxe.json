@@ -1,0 +1,118 @@
+﻿{
+    "id": "HookSword",
+    "classType": "BS.Item",
+    "version": 3,
+    "displayName": "HookSword",
+    "description": "",
+    "price": 0.0,
+    "levelRequired": 0,
+    "clutter": 3,
+    "isStackable": false,
+    "pool": false,
+    "category": 2,
+    "prefabName": "HookSwordbundle;Assets/Patrick/Weapons/HookSword.prefab;",
+    "mass": 1.5,
+    "drag": 1.0,
+    "angularDrag": 0.05000000074505806,
+    "useGravity": true,
+    "overrideInertiaTensor": false,
+    "inertiaTensor": 
+    {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "collisionMaxOverride": 0,
+    "collisionEnterOnly": false,
+    "ignoredCollisionRagdollParts": 
+    [],
+    "audioSnapPath": "SnapOther",
+    "flyFromThrow": true,
+    "flyRotationSpeed": 2.0,
+    "flyThrowAngle": 60.0,
+    "telekinesisSafeDistance": 1.0,
+    "telekinesisSpinEnabled": true,
+    "telekinesisThrowRatio": 1.0,
+    "transfertDamageToHandler": false,
+    "paintable": true,
+    "customSnaps": 
+    [],
+    "aiDefenseIgnoreAttackRotation": false,
+    "aiDefenseWeaponRotation": 90.0,
+    "aiDefenseWeaponDualRotation": 60.0,
+    "aiDefenseArmResistanceMultiplier": 3.0,
+    "aiDefenseWeaponLenght": 0.33000001311302185,
+    "aiDefenseWeaponAxisPos": -0.079999998211860657,
+    "aiDefenseWeaponRevertAngleRange": 
+    {
+        "x": -80.0,
+        "y": -180.0
+    },
+    "aiDefenseWeaponDefaultPosition": 
+    {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "aiDefenseWeaponDefaultLeftRotation": 
+    {
+        "x": 25.0,
+        "y": -10.0,
+        "z": -65.0
+    },
+    "aiDefenseWeaponDefaultRightRotation": 
+    {
+        "x": 30.0,
+        "y": 5.0,
+        "z": 60.0
+    },
+    "aiDefenseAllowDynamicHeight": false,
+    "aiDefenseDodgeBehaviour": 2,
+    "aiDefenseHasPriority": false,
+    "aiAttackIgnore": false,
+    "aiAttackforceIgnoreRotation": false,
+    "damagers": 
+    [
+        {
+            "transformName": "Slash",
+            "damagerID": "AxeSlash"
+        },
+        {
+            "transformName": "Blunt",
+            "damagerID": "MyBattleAxeBluntHandle"
+        },
+        {
+            "transformName": "Pierce",
+            "damagerID": "DaggerPierce"
+        }
+    ],
+    "Interactables": 
+    [
+        {
+            "transformName": "Handle",
+            "interactableId": "ObjectHandleLight2H",
+            "overrideHandPose": false,
+            "handPoseId": ""
+        }
+    ],
+    "whooshs": 
+    [
+        {
+            "transformName": "Whoosh",
+            "fxId": "WhooshSwordLight",
+            "trigger": 0,
+            "minVelocity": 5.0,
+            "maxVelocity": 12.0
+        }
+    ],
+    "weaponClass": 1,
+    "weaponType": 3,
+    "weaponHandling": 1,
+    "armor": 0,
+    "umaSlot": 0,
+    "maleRecipeName": "",
+    "femaleRecipeName": "",
+    "liquidCurrentLevel": 0.0,
+    "liquidMaxLevel": 0.0,
+    "liquidType": 0
+}

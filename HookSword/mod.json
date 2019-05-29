@@ -1,0 +1,14 @@
+{
+	"name": "HookSword",
+	"Version": "1.0",
+	"Author": "Patrick Lie And Eirik Borgli",
+	"Description": "Gonna hook those hookers",
+	"Assembly": null,
+	"HasJson": true,
+	"Bundles": [
+		{
+			"Name": "HookSwordbundle",
+			"Path": "HookSword.bundle"
+		}
+	]
+}
