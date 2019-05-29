@@ -11,8 +11,8 @@
     "pool": false,
     "category": 2,
     "prefabName": "MeanBatlethbundle;Assets/Patrick/Weapons/MeanBatleth.prefab;",
-    "mass": 1.5,
-    "drag": 1.0,
+    "mass": 2,
+    "drag": 1.5,
     "angularDrag": 0.05000000074505806,
     "useGravity": true,
     "overrideInertiaTensor": false,
@@ -30,7 +30,7 @@
     "flyFromThrow": true,
     "flyRotationSpeed": 2.0,
     "flyThrowAngle": 60.0,
-    "telekinesisSafeDistance": 1.0,
+    "telekinesisSafeDistance": 2,
     "telekinesisSpinEnabled": true,
     "telekinesisThrowRatio": 1.0,
     "transfertDamageToHandler": false,
@@ -75,11 +75,11 @@
     [
         {
             "transformName": "Slash",
-            "damagerID": "AxeSlash"
+            "damagerID": "MeanBatlethbundle"
         },
         {
             "transformName": "Blunt",
-            "damagerID": "MyBattleAxeBluntHandle"
+            "damagerID": "Blunt"
         },
         {
             "transformName": "Pierce",
@@ -101,13 +101,13 @@
             "transformName": "Whoosh",
             "fxId": "WhooshSwordLight",
             "trigger": 0,
-            "minVelocity": 5.0,
-            "maxVelocity": 12.0
+            "minVelocity": 1,
+            "maxVelocity": 6
         }
     ],
     "weaponClass": 1,
-    "weaponType": 3,
-    "weaponHandling": 1,
+    "weaponType": 1,
+    "weaponHandling": 2,
     "armor": 0,
     "umaSlot": 0,
     "maleRecipeName": "",

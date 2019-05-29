@@ -1,0 +1,84 @@
+﻿{
+    "id": "wolverineclawsSlash",
+    "classType": "BS.DamagerData",
+    "version": 0,
+    "type": 2,
+    "impulseMinMax": {
+        "x": 0.1,
+        "y": 12.0
+    },
+    "damageMinMax": {
+        "x": 0.1,
+        "y": 10.0
+    },
+    "recoilMinMax": {
+        "x": 0.1,
+        "y": 5.0
+    },
+    "maxVerticalAngle": 180.0,
+    "maxHorizontalAngle": 180.0,
+    "hitRagdollDelay": 0.0,
+    "playerDamageMultiplier": 1.0,
+    "throwedMultiplier": 2.0,
+    "badAngleDamageType": 1,
+    "badAngleDamage": 1.0,
+    "badAngleRecoilMultiplier": 0.0,
+    "knockoutOnHit": 0,
+    "knockoutOnThrow": 0,
+    "knockoutMinImpulse": 8.0,
+    "knockoutDurationMinMax": {
+        "x": 1.0,
+        "y": 2.0
+    },
+    "addForce": 50.0,
+    "addForceState": 1,
+    "addForceTargetType": 2,
+    "addForceMode": 2,
+    "addForceDuration": 0.0,
+    "addForceRagdollPartMultiplier": 1.0,
+    "addForceRagdollOtherMultiplier": 0.0,
+    "addForceSlowMoMultiplier": 1.0,
+    "addForceKnockoutOnly": false,
+    "addForceNormalize": false,
+    "penetrationMultiplier": 1.0,
+    "penetrationDamperMultiplier": 5000.0,
+    "penetrationSpring": 100.0,
+    "penetrationVelocityAdd": 0.0,
+    "penetrationDamperCurve": {
+        "serializedVersion": "2",
+        "m_Curve": [
+            {
+                "serializedVersion": "3",
+                "time": 0.0,
+                "value": 0.5,
+                "inSlope": 1.4330474138259888,
+                "outSlope": 1.4330474138259888,
+                "tangentMode": 0,
+                "weightedMode": 0,
+                "inWeight": 0.0,
+                "outWeight": 0.027247946709394456
+            },
+            {
+                "serializedVersion": "3",
+                "time": 1.0,
+                "value": 0.9180952310562134,
+                "inSlope": 0.9352041482925415,
+                "outSlope": 0.9352041482925415,
+                "tangentMode": 0,
+                "weightedMode": 0,
+                "inWeight": 0.033606112003326419,
+                "outWeight": 0.0
+            }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+    },
+    "penetrationFxExitDelay": 0.0,
+    "penetrationImpactVelocityAdd": 5.0,
+    "penetrationJointMaxForce": 1000.0,
+    "pierceExitOnMaxDepth": false,
+    "drawCutMaxDot": 0.10000000149011612,
+    "drawCutMultiplier": 5.0,
+    "sliceMultiplier": 25.0
+}

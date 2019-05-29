@@ -1,0 +1,52 @@
+{
+    "id": "HandleWolverineClaws",
+    "classType": "BS.InteractableHandle",
+    "version": 2,
+    "disableTouch": false,
+    "highlighterView": 0,
+    "highlighterViewHandFreeOnly": false,
+    "highlighterPath": "Handle",
+    "highlighterShowAxisLine": true,
+    "highlighterShowAxisLineOnProximity": false,
+    "highlightDefaultTitle": "",
+    "highlightDefaultDesignation": "",
+    "rotateAroundAxis": false,
+    "forceHoldGripToGrab": false,
+    "disableHandCollider": false,
+    "anchorLocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "anchorLocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "handPoseId": "HandleDefault",
+    "allowSpellMenu": false,
+    "warnIfNotAllowed": false,
+    "rotationDrive": 3,
+    "positionSpringMultiplier": 2,
+    "positionDamperMultiplier": 2,
+    "rotationSpringMultiplier": 1,
+    "rotationDamperMultiplier": 1,
+    "rotationSpring2hMultiplier": 1,
+    "rotationDamper2hMultiplier": 1,
+    "dominantWhenTwoHanded": true,
+    "ignoreSnap": false,
+    "disabledOnSnap": false,
+    "comToHandle": false,
+    "useDefaultGripForHolder": true,
+    "allowedTeleGrab": 1,
+    "allowSwap": true,
+    "slideMinDamper": 20.0,
+    "slideMaxDamper": 300.0,
+    "moveToHandle": "",
+    "moveToHandleLocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "moveToHandleAxisPos": 0.0
+}

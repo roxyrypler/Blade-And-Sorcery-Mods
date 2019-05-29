@@ -1,0 +1,19 @@
+{
+  "Name": "Wolverine Claws",
+  "Version": "1.0",
+  "Author": "Patrick And Eirik",
+  "Description": "Slice me dude",
+  "HasJson": true,
+  "LoadInfo": {
+    "LoadOrder": 0,
+    "JsonLoadOrder": null
+  },
+  "Bundles": [
+	{
+		"Name": "wolverineclawsbundle",
+		"Path": "wolverineclaws.bundle"
+	},
+  ],
+  "ItemSpawns": null,
+  "IsJsonOnly": false
+}

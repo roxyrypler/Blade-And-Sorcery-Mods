@@ -41,7 +41,7 @@
     "addForceKnockoutOnly": false,
     "addForceNormalize": false,
     "penetrationMultiplier": 1.0,
-    "penetrationDamperMultiplier": 1000.0,
+    "penetrationDamperMultiplier": 1,
     "penetrationSpring": 0.0,
     "penetrationVelocityAdd": 0.0,
     "penetrationDamperCurve": {
@@ -76,9 +76,10 @@
     },
     "penetrationFxExitDelay": 0.0,
     "penetrationImpactVelocityAdd": 0.0,
-    "penetrationJointMaxForce": 1000.0,
+    "penetrationJointMaxForce": 10.0,
     "pierceExitOnMaxDepth": false,
-    "drawCutMaxDot": 0.20000000298023225,
-    "drawCutMultiplier": 1.0,
-    "sliceMultiplier": 1.0
+    "drawCutMaxDot": 0.10000000298023225,
+    "drawCutMultiplier": 200000,
+    "sliceMultiplier": 200000
+	
 }
