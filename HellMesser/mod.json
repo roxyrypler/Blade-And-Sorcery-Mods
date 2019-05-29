@@ -1,0 +1,14 @@
+{
+	"name": "Hell Messer",
+	"Version": "1.0",
+	"Author": "Patrick Lie And Eirik Borgli",
+	"Description": "Gonna Mess You Up maaann",
+	"Assembly": null,
+	"HasJson": true,
+	"Bundles": [
+		{
+			"Name": "HellMesserbundle",
+			"Path": "HellMesser.bundle"
+		}
+	]
+}

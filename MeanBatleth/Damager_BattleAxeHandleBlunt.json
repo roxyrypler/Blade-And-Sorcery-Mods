@@ -1,0 +1,84 @@
+﻿{
+    "id": "MeanBatlethbundle",
+    "classType": "BS.DamagerData",
+    "version": 0,
+    "type": 1,
+    "impulseMinMax": {
+        "x": 4.0,
+        "y": 8.0
+    },
+    "damageMinMax": {
+        "x": 1.0,
+        "y": 2.0
+    },
+    "recoilMinMax": {
+        "x": 0.25,
+        "y": 1.0
+    },
+    "maxVerticalAngle": 0.0,
+    "maxHorizontalAngle": 0.0,
+    "hitRagdollDelay": 0.20000000298023225,
+    "playerDamageMultiplier": 1.0,
+    "throwedMultiplier": 2.0,
+    "badAngleDamageType": 0,
+    "badAngleDamage": 1.0,
+    "badAngleRecoilMultiplier": 0.0,
+    "knockoutOnHit": 0,
+    "knockoutOnThrow": 0,
+    "knockoutMinImpulse": 10.0,
+    "knockoutDurationMinMax": {
+        "x": 1.0,
+        "y": 2.0
+    },
+    "addForce": 1000.0,
+    "addForceState": 1,
+    "addForceTargetType": 2,
+    "addForceMode": 2,
+    "addForceDuration": 0.0,
+    "addForceRagdollPartMultiplier": 1.0,
+    "addForceRagdollOtherMultiplier": 0.0,
+    "addForceSlowMoMultiplier": 1.0,
+    "addForceKnockoutOnly": false,
+    "addForceNormalize": false,
+    "penetrationMultiplier": 1.0,
+    "penetrationDamperMultiplier": 1000.0,
+    "penetrationSpring": 0.0,
+    "penetrationVelocityAdd": 0.0,
+    "penetrationDamperCurve": {
+        "serializedVersion": "2",
+        "m_Curve": [
+            {
+                "serializedVersion": "3",
+                "time": 0.0,
+                "value": 0.5,
+                "inSlope": 1.4330474138259888,
+                "outSlope": 1.4330474138259888,
+                "tangentMode": 0,
+                "weightedMode": 0,
+                "inWeight": 0.0,
+                "outWeight": 0.027247946709394456
+            },
+            {
+                "serializedVersion": "3",
+                "time": 1.0,
+                "value": 0.9180952310562134,
+                "inSlope": 0.9352041482925415,
+                "outSlope": 0.9352041482925415,
+                "tangentMode": 0,
+                "weightedMode": 0,
+                "inWeight": 0.033606112003326419,
+                "outWeight": 0.0
+            }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+    },
+    "penetrationFxExitDelay": 0.0,
+    "penetrationImpactVelocityAdd": 0.0,
+    "penetrationJointMaxForce": 1000.0,
+    "pierceExitOnMaxDepth": false,
+    "drawCutMaxDot": 0.20000000298023225,
+    "drawCutMultiplier": 1.0,
+    "sliceMultiplier": 1.0
+}

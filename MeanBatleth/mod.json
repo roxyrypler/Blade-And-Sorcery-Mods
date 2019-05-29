@@ -1,0 +1,14 @@
+{
+	"name": "MeanBatleth",
+	"Version": "1.0",
+	"Author": "Patrick Lie And Eirik Borgli",
+	"Description": "Gonna bleth You to the future maan",
+	"Assembly": null,
+	"HasJson": true,
+	"Bundles": [
+		{
+			"Name": "MeanBatlethbundle",
+			"Path": "MeanBatleth.bundle"
+		}
+	]
+}
